@@ -44,7 +44,7 @@ fileFormDOM.addEventListener("submit", async (e) => {
     await axios.post(url, product);
     fetchProducts();
   } catch (error) {
-    console.log(error);
+    console.log("err", error);
   }
 });
 

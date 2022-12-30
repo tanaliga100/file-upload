@@ -3,7 +3,6 @@ const path = require("path");
 const { BadRequestError } = require("../errors");
 
 const uploadProductImage = async (req, res) => {
-  console.log(req.files);
   // ADD VALIDATIONS HERE
   // check if files exitst
   if (!req.files) {
